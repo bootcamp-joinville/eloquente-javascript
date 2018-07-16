@@ -2,7 +2,7 @@
 title: "Eloquent Javascript"
 email: "randsonjs@gmail.com"
 description: "A portuguese translation of Eloquent JavaScript 2 edition by Marijn Haverbeke"
-baseurl: "http://braziljs.github.io/eloquente-javascript"
+baseurl: "/eloquente-javascript"
 url: "http://braziljs.github.io/eloquente-javascript/"
 
 # Build settings
@@ -10,7 +10,7 @@ markdown: kramdown
 
 source: .
 destination: ./_site
-plugins: ./_plugins
+plugins_dir: ./_plugins
 paginate: 5
 paginate_path: "blog/page:num"
 
